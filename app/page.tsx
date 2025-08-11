@@ -246,7 +246,7 @@ export default function HomePage() {
       </div>
 
       {/* 3. Filtro de Propiedades */}
-      <section className="py-8 sm:py-12 lg:py-16 bg-white">
+      <section className="py-8 sm:py-12 lg:py-16 bg-gradient-to-br from-green-50 to-emerald-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8 lg:mb-12">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-montserrat font-extrabold text-gray-900 mb-3 lg:mb-4">
@@ -257,10 +257,10 @@ export default function HomePage() {
             </p>
           </div>
 
-          <Card className="max-w-4xl mx-auto p-4 sm:p-6 shadow-lg">
+          <Card className="max-w-4xl mx-auto p-4 sm:p-6 shadow-xl border-0 bg-white/95 backdrop-blur-sm">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-4 sm:mb-6">
               <Select>
-                <SelectTrigger>
+                <SelectTrigger className="border-green-200 focus:border-green-500 focus:ring-green-500/20">
                   <SelectValue placeholder="Tipo de propiedad" />
                 </SelectTrigger>
                 <SelectContent>
@@ -272,7 +272,7 @@ export default function HomePage() {
               </Select>
 
               <Select>
-                <SelectTrigger>
+                <SelectTrigger className="border-green-200 focus:border-green-500 focus:ring-green-500/20">
                   <SelectValue placeholder="Superficie" />
                 </SelectTrigger>
                 <SelectContent>
@@ -284,7 +284,7 @@ export default function HomePage() {
               </Select>
 
               <Select>
-                <SelectTrigger>
+                <SelectTrigger className="border-green-200 focus:border-green-500 focus:ring-green-500/20">
                   <SelectValue placeholder="Zona" />
                 </SelectTrigger>
                 <SelectContent>
@@ -296,7 +296,7 @@ export default function HomePage() {
               </Select>
 
               <Select>
-                <SelectTrigger>
+                <SelectTrigger className="border-green-200 focus:border-green-500 focus:ring-green-500/20">
                   <SelectValue placeholder="Precio" />
                 </SelectTrigger>
                 <SelectContent>
@@ -308,7 +308,7 @@ export default function HomePage() {
               </Select>
             </div>
 
-            <Button className="w-full bg-teal-600 hover:bg-teal-700 text-base sm:text-lg py-3 sm:py-4">
+            <Button className="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-base sm:text-lg py-3 sm:py-4 shadow-lg hover:shadow-xl transition-all duration-300 font-semibold">
               <Search className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
               Buscar propiedades
             </Button>
