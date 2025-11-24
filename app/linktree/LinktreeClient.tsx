@@ -47,8 +47,8 @@ export default function LinktreeClient() {
     },
     {
       title: "WhatsApp",
-      subtitle: "+54 9 3546 47-6146",
-      href: "https://wa.me/5493546476146",
+      subtitle: "+54 9 3546 56-4461",
+      href: "https://wa.me/5493546564461",
       icon: Phone,
       color: "bg-green-600 hover:bg-green-700",
     },

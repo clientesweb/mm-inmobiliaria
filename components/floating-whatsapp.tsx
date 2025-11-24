@@ -13,7 +13,7 @@ export function FloatingWhatsApp() {
 
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent("Hola! Me interesa conocer más sobre las propiedades en las Sierras de Córdoba.")
-    const whatsappUrl = `https://wa.me/5493516123456?text=${message}`
+    const whatsappUrl = `https://wa.me/5493546564461?text=${message}`
     window.open(whatsappUrl, "_blank")
   }
 

@@ -28,8 +28,8 @@ export default function LinktreeClientPage() {
     },
     {
       title: "Llamar Ahora",
-      subtitle: "+54 9 3546 47-6146",
-      href: "tel:+5493546476146",
+      subtitle: "+54 9 3546 56-4461",
+      href: "tel:+5493546564461",
       icon: Phone,
       color: "bg-green-600 hover:bg-green-700",
     },
@@ -56,7 +56,7 @@ export default function LinktreeClientPage() {
         background: "linear-gradient(135deg, #f5f1eb 0%, #e8ddd4 50%, #d4c4b0 100%)",
       }}
     >
-      {/* <CHANGE> Video banner centrado con logo superpuesto */}
+      {/* Video banner centrado con logo superpuesto */}
       <div className="w-full h-64 sm:h-80 md:h-96 relative overflow-hidden rounded-b-3xl shadow-2xl">
         <video ref={videoRef} className="w-full h-full object-cover" autoPlay muted loop playsInline>
           <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/recorrido-virtual-ew2dhUGdBBqDUoFqr5glBWcEfCDEeX.mp4" type="video/mp4" />
@@ -76,7 +76,7 @@ export default function LinktreeClientPage() {
         </div>
       </div>
 
-      {/* <CHANGE> Contenido principal con nuevo diseño y colores del branding */}
+      {/* Contenido principal con nuevo diseño y colores del branding */}
       <div className="relative z-10 px-4 py-8">
         {/* Título */}
         <div className="text-center mb-8">

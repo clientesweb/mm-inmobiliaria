@@ -24,6 +24,11 @@ interface MobileMenuProps {
 }
 
 export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
+  const handleWhatsAppClick = () => {
+    const message = encodeURIComponent("Hola! Me interesa conocer más sobre las propiedades en las Sierras de Córdoba.")
+    window.open(`https://wa.me/5493546564461?text=${message}`, "_blank")
+  }
+
   return (
     <>
       {/* Overlay */}
@@ -99,7 +104,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
 
           {/* Botones CTA */}
           <div className="space-y-3 mb-8">
-            <Button className="w-full bg-teal-600 hover:bg-teal-700 justify-center">
+            <Button onClick={handleWhatsAppClick} className="w-full bg-teal-600 hover:bg-teal-700 justify-center">
               <MessageCircle className="w-4 h-4 mr-2" />
               Contactar por WhatsApp
             </Button>
@@ -114,11 +119,11 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             <div className="space-y-3 text-sm text-gray-600 font-poppins mb-6">
               <div className="flex items-center">
                 <Phone className="w-4 h-4 mr-2" />
-                +54 9 3541 123456
+                +54 9 3546 56-4461
               </div>
               <div className="flex items-center">
                 <Mail className="w-4 h-4 mr-2" />
-                info@mminmobiliariaserrana.com
+                mminmobiliariaserrana@gmail.com
               </div>
               <div className="flex items-center">
                 <MapPin className="w-4 h-4 mr-2" />
