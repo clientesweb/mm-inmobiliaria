@@ -430,7 +430,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/tourism-experience.jpeg" // Ruta a la nueva imagen de turismo
+                  src="/images/landscape-river.webp" // Ruta a la nueva imagen de turismo
                   alt="Experiencia de turismo inmobiliario"
                   fill
                   className="object-cover"
@@ -562,7 +562,7 @@ export default function HomePage() {
               <ul className="space-y-3 text-gray-400">
                 <li className="flex items-center">
                   <Phone className="w-4 h-4 mr-2" />
-                  +54 9 3541 123456
+                  +54 9 354656446
                 </li>
                 <li className="flex items-center">
                   <MapPin className="w-4 h-4 mr-2" />
